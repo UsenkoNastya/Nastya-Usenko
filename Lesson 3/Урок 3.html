@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Урок 3</title>
+	</head>
+	<body>
+    	<h1>Урок "Формы": теги и их атрибуты.</h1>
+        <h2>Расскажите немного о себе...</h2>
+		<form method="post" action="Asya-us@yandex.ru" name="Урок "Формы": теги и их атрибуты.">
+			<fieldset>
+				<legend><strong>Коротко о себе</strong></legend>
+				<label for="Имя">Имя:</label>
+				<input type="text" name="Имя" id="Имя" required /><br /><br />
+				<label for="Фамилия">Фамилия:</label>
+				<input type="text" name="Фамилия" id="Фамилия" required /><br /><br />
+           		<label for="Пол">Пол:</label>
+            	<input type="radio" name="Пол" id="Мужской" value="Мужской" required/>
+            	<label for="Пол">Мужской</label>
+            	<input type="radio" name="Пол" id="Женский" value="Женский" required />
+            	<label for="Пол">Женский</label><br /><br/>
+            	<label for="Возраст">Возраст:</label>
+            	<input type="text" name="Возраст" id="Возраст" size="3" maxlength="3" required/> лет<br /><br />
+         	</fieldset>
+			<fieldset>
+            	<legend><strong>Подробнее о себе</strong></legend>
+				<input type="radio" name="group1" id="Молодой человек" value="Молодой человек" required />
+           	  	<label for="group1">Молодой человек</label><br/>
+            	<input type="radio" name="group1" id="Девушка" value="Девушка" required />
+            	<label for="group1">Девушка</label><br/><br/>
+           	 	<input name="Дата рождения" type="text" id="Дата рождения" maxlength="10" required />
+            	<label for="Дата рождения">Дата рождения</label><br/>
+            	<input name="Семейное положение" type="text" id="Семейное положение" maxlength="10" required />
+            	<label for="Семейное пложение">Семейное положение</label><br/>
+            	<input type="text" name="Социальный статус" id="Социальный статус" />
+            	<label for="Социальный статус">Социальный статус</label><br/>
+            	<input type="text" name="Местожительства" id="Местожительства" />
+            	<label for="Местожительства">Местожительсва</label><br/><br/>
+            	<p><strong>Что вы обычно делаете на выходных:</strong></p>
+           		<input type="checkbox" name="group2" id="Сплю" />
+            	<label for="group2">Сплю</label><br/>
+             	<input type="checkbox" name="group2" id="Гуляю с друзьями" />
+            	<label for="group2">Гуляю с друзьями</label><br/>
+            	<input type="checkbox" name="group2" id="Хожу на рыбалку" />
+            	<label for="group2">Хожу на рыбалку</label><br/>
+             	<input type="checkbox" name="group2" id="Играю в игры" />
+            	<label for="group2">Играю в игры</label><br/>
+            	<p><strong>Какой у вас домашний питомец:</strong></p>
+       		  	<select size="1">
+    <option>Попугай</option>
+            		<option>Кот</option>
+            		<option>Рыбки</option>
+            		<option>Собака</option>
+            		<option>Хомяк</option>
+            		<option>Морская свинка</option>
+            		<option>Нет питомца</option>
+           	  	</select>
+            	<p><strong>Сколько книг вы прочитали за свою жизнь:</strong></p>
+            	<input type="radio" name="group3" id="0-10" value="0-10" />
+           	  	<label for="group3">0-10</label><br/>
+            	<input type="radio" name="group3" id="11-20" value="11-20" />
+            	<label for="group3">11-20</label><br/>
+            	<input type="radio" name="group3" id="21-50" value="21-50" />
+            	<label for="group3">21-50</label><br/>
+           	 	<input type="radio" name="group3" id="50+" value="50+" />
+            	<label for="group3">50+</label><br/>
+            	<p><strong>Ваши комментарии:</strong></p>
+            	<textarea accesskey="Tab" name="Ваши коментарии" placeholder="Ваши комментарии" cols="70" rows="10" maxlength="400" > </textarea><br/><br/>
+                <select size="3">
+           			<option>Первая позиция</option>
+            		<option>Вторая позиция</option>
+            		<option>Третья позиция</option>
+            	</select>
+			</fieldset>
+       	 	<fieldset>
+       			<legend><strong>И в заключение:</strong></legend>
+            	<input type="text" name="Neakt pole" disabled="disabled" id="Это поле было введено до вас" value="Это поле было введено до вас" size="27" required /><br/><br/>
+           		<label for="Email"><strong>Email:</strong></label><br/>
+            	<input type="text" name="Email" id="Email" value="" required size="27" />
+              	<br/>
+               	<p><strong>Хотите подписаться на самую модную рассылку спама?</strong></p>
+                <p><em>Выберете категории:</em></p>
+                <input type="checkbox" name="Спам" id="Оборудование" />
+                <label for="Спам">Оборудование</label><br/>
+                <input type="checkbox" name="Спам" id="Как приготовить обеды" />
+                <label for="Спам">Как приготовить обеды</label><br/>
+                <input type="checkbox" name="Спам" id="Заработай" />
+                <label for="Заработай">Заработай миллион за два дня!</label>
+            	<p><strong>На сколько сложная задача:</strong></p>  
+                <input type="radio"  name="Сложность" id="Совсем нет" required />
+                <label for="Совсем нет">Совсем нет</label><br/>
+                <input type="radio"  name="Сложность" id="Так себе" required/>
+                <label for="Так себе">Так себе</label><br/>
+                <input type="radio"  name="Сложность" id="Ели справились" required />
+                <label for="Ели справились">Ели справились</label>           
+            </fieldset>
+				<p>
+				<input type="submit" value="Отправить" />
+				<input type="hidden" name="session" value="1" />
+				</p>
+		</form>
+	</body>
+</html>
