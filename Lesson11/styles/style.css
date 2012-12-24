@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+html,body { width:100%; height:100%;}
+body { padding:0; margin:0; font:15px Arial, sans-serif; background:url(../images/header_bg.png) repeat-x #fff; color:#000;}
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {padding:0; margin:0; outline:none; list-style:none;}
+select, input, textarea { font-size:12px; vertical-align:middle;}
+textarea { vertical-align:top;}
+:focus { outline:none;}
+input[type=submit] { cursor:pointer;}
+img, fieldset { border:0;}
+table { border-collapse:collapse; border-spacing:0;}
+a:link, a:visited { font:12px Tahoma, sans-serif; text-decoration:underline;}
+a:hover { text-decoration:none;}
+
+.float-r { float:right !important;}
+.float-l { float:left !important;}
+.no-float { float:none !important;}
+.no-border { border:0 !important;}
+.no-bg { background:none !important;}
+.no-margin { margin:0 !important;}
+.no-padding { padding:0 !important;}
+.no-display { display:none !important;}
+.display { display:block !important;}
+.inline { display:inline !important;}
+.overflow { overflow:hidden !important;}
+.align-r { text-align:right !important;}
+.align-l { text-align:left !important;}
+.align-c { text-align:center !important;}
+.clear { clear:both;}
+
+
+#wrapper { width:900px; margin:0 auto;}
+
+#header { height:89px; padding-top:19px; margin-bottom:30px;}
+#header .nav { float:right; margin-right:10px;} 
+#header .nav li { float:left;}
+#header .nav li a { color:#396375; font-size:15px; text-transform:uppercase; text-decoration:none; padding:37px 10px; line-height:1em; display:block;}
+#header .nav li a:hover { color:#E11D5C;}
+#header .nav li.active a { background:url(../images/header_active-link.png) 50% 100% no-repeat; color:#E11D5C;}
+.social { float:right; padding-top:30px; margin-right:115px;}
+.social li { float:left; margin-left:10px;}
+.social li a { width:23px; height:23px; background:url(../images/social-buttons.png) no-repeat; text-indent:-999em; display:block;}
+.social li a.fb { background-position:-1px -1px;}
+.social li a.vk { background-position:-33px -1px;}
+.social li a.tw { background-position:-65px -1px;}
+.social li a.yt { background-position:-97px -1px;}
+.social li a.vm { background-position:-129px -1px;}
+.social li a.fb:hover { background-position:-1px -25px;}
+.social li a.vk:hover { background-position:-33px -25px;}
+.social li a.tw:hover { background-position:-65px -25px;}
+.social li a.yt:hover { background-position:-97px -25px;}
+.social li a.vm:hover { background-position:-129px -25px;}
+
+h1 { font-family:Myriad Pro; color:#4B7589; font-size:55px; border-bottom:1px solid #A7C3CF; font-weight:normal; margin-bottom:40px;}
+#content { overflow:hidden;}
+#content h3 { color:#E92777; font-family:Myriad Pro; font-size:28px;font-weight:normal; margin-bottom:20px;}
+#content p { font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#4B7589;  padding-bottom:25px; line-height:14pt;}
+#content ul.list1 { font-size:15; font-family:Arial, Helvetica, sans-serif; color:#F2753D; line-height:15pt;}
+#content ul.list1 li { margin-bottom:15px;}
+#content .list1 li.stage1 { background:url(../images/one.gif) no-repeat 0 0; padding-left:20px;}
+#content .list1 li.stage2 { background:url(../images/two.gif) no-repeat 0 0; padding-left:20px;}
+#content .list1 li.stage3 { background:url(../images/three.gif) no-repeat 0 0; padding-left:20px;}
+#content ul.list2 { text-align:center; color:#4B7589; font-family:Arial, Helvetica, sans-serif; font-size:15px;}
+#content .list2 li label{ padding-right:20px;}
+#content ul.list2 li { padding-bottom:10px;}
+#content .ab_y label{ float:left;}
+
+.align { padding-left:37px; padding-right:37px;}
+
+#footer {border-top:1px solid #A7C3CF; margin-top:40px;}
+#footer .menu li a { float:left; overflow:hidden; font-size:11px; font-family:Arial, Helvetica, sans-serif; color:#396375; padding-top:15px;  text-decoration:none; padding-bottom:500px; margin-left:10px; }
+#footer .menu li.active1 a { color:#F85B4E;}
+#footer .menu a:hover { color:#F85B4E;}
+#footer .copyright { float:right; padding-top:10px; color:#A7C3CF; font-family:Arial, Helvetica, sans-serif; size:11px;}
