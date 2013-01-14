@@ -9,7 +9,7 @@
 <body>
 	<div id="wrapper">
 		<div id="header">
-    		<a href="index.html"><img src="images/geekhub_logo.png" width="167" height="71" alt="Geekhub logo" /></a>
+    		<a href="#"><img src="images/geekhub_logo.png" width="167" height="71" alt="Geekhub logo" /></a>
         	<ul class="nav">
         		<li><a href="#">Главная</a></li>
             	<li class="active"><a href="#">О Geekhub</a></li>
@@ -23,10 +23,9 @@
                 <li><a href="#" class="yt">Youtube</a></li>
             	<li><a href="#" class="vm">Vimeo</a></li>
         	</ul>
-    	</div>
+		</div>
         <div id="content">
         	<h1>Реєстрація</h1>
-            <div class="align">
             <h3>Як проходитеме реєстрація та набір слухачів?</h3>
             <p class="paragraph">Ми хочемо надати шанс всім, хто має бажання та схильність до інформаційний технологій здобути практичні знання та роботу в цій сфері за мінімальний період. Нажаль, ми не можемо прийняти всіх бажаючих через обмеження в кількості викладачів та технічних ресурсів. Тому, ми робимо набір в три етапи:</p>
             <ul class="list1">
@@ -35,41 +34,32 @@
                 <li class="stage3">Ті хто успішно склав екзамен продовжують навчання на одному з двох напрямків: "HTML/CSS" або "Web programming"</li>
             </ul>
             <p>Не вагайся, реєструйся!</p>
-            
-                	<form method="post" action="Asya-us@yandex.ru" name="Registration">
+                <form method="post" action="#" id="Registration">
                     <ul class="list2">
-            		<li><label for="full_name">Повне ім`я</label>
-                    <input name="full_name" type="text" value="Павел Павлович Павлов"/></li>
-                    <li class="active"><label for="phone_number">Телефон</label>
-                	<input type="text" name="phone_number" /></li>
-                	<li><label for="Email" >Email</label>
-                    <input type="text" name="Email" value="adsfk@kjdfi.dko" /></li>
-                    <li><input type="checkbox"  name="laptop" />
-                <label for="laptop">Я маю ноутбук, який можу використовувати 
+            			<li><label for="name" class="contlabel">Повне ім`я</label><input class="field" id="name" name="name" type="text" value="Павел Павлович Павлов"/><span>Будь ласка введіть ім`я</span></li>
+                    	<li class="error"><label for="phone_number" class="contlabel">Телефон</label><input class="field" id="phone_number" type="text" name="phone_number" value="" /><span>Будь ласка введіть телефон</span></li>
+                		<li><label for="Email" class="contlabel" >Email</label><input class="field" id="Email" type="text" name="Email" value="adsfk@kjdfi.dko" /><span>Будь ласка введіть Email</span></li>
+                    	<li class="checkbox"><input type="checkbox"  name="laptop" id="laptop" /><label for="laptop" class="laptop">Я маю ноутбук, який можу використовувати 
 для навчання</label></li>
-					<li class="ab_y"><label>Коротко роскажіть про свій досвід в інформаційних технологіях</label>
-            	<textarea accesskey="Tab" name="Ваши коментарии" cols="50" rows="10" value="Ecte feugait illutpat. Duiscil luptat lam nosto conullum nim quamet vel ulluptatie tem et adionulla aci blaor at ulputat wissequate modiam vulluptat acipit augue dolore tem il dit nim quat, quat nim zzrilit del iurem ercin ut in ut ulla con ut exer si."  ></textarea></li>
-                <li class="numbers"><label>Введіть цифри</label>
-                <img src="images/number.gif"  />
-                <input type="text"  value="46874"/></li>
-                <li>
-				<input type="submit" value="Надіслати" ><img src="images/send.png" /></input>
-				<input type="hidden" name="session" value="1" />
-				</li>
+						<li><label for="about_your_experience" class="contlabel">Коротко роскажіть про свій досвід в інформаційних технологіях</label>
+            				<textarea  class="field" accesskey="Tab" name="about_your_experience" cols="50" rows="10">Ecte feugait illutpat. Duiscil luptat lam nosto conullum nim quamet vel ulluptatie tem et adionulla aci blaor at ulputat wissequate modiam vulluptat acipit augue dolore tem il dit nim quat, quat nim zzrilit del iurem ercin ut in ut ulla con ut exer si.</textarea><span>Будь ласка розкажіть про свій досвід</span></li>
+                		<li class="numbers"><label for="numbers" class="contlabel_1">Введіть цифри</label><img src="images/number.gif"  />
+                			<input type="text"  value="46874" id="numbers" class="field_1" /><span>Будь ласка введіть цифри</span></li>
+                		<li class="send">
+							<input type="submit" value="Надіслати" />
+						</li>
                     </ul>
-                    </form>
-            
-        </div>
+             	</form>
         </div>
         <div id="footer">
-    	<ul class="menu">
-        	<li class="active1"><a href="http://geekhub.ck.ua/">ГЛАВНАЯ</a></li>
-            <li><a href="http://geekhub.ck.ua/about.html">О GEEKHUB</a></li>
-            <li><a href="http://geekhub.ck.ua/team.html">КОМАНДА</a></li>
-            <li><a href="http://geekhub.ck.ua/contacts.html">КОНТАКТЫ</a></li>
-        </ul>
-        <span class="copyright">© Copyright 2011</span>
-    </div>
+    		<ul class="menu">
+        		<li class="active1"><a href="#">ГЛАВНАЯ</a></li>
+            	<li><a href="#">О GEEKHUB</a></li>
+            	<li><a href="#">КОМАНДА</a></li>
+            	<li><a href="#">КОНТАКТЫ</a></li>
+        	</ul>
+    		<span class="copyright">© Copyright 2011</span>
+    	</div>
     </div>
 </body>
 </html>

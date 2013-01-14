@@ -11,6 +11,7 @@ img, fieldset { border:0;}
 table { border-collapse:collapse; border-spacing:0;}
 a:link, a:visited { font:12px Tahoma, sans-serif; text-decoration:underline;}
 a:hover { text-decoration:none;}
+input, textarea { border:0;}
 
 .float-r { float:right !important;}
 .float-l { float:left !important;}
@@ -51,24 +52,39 @@ a:hover { text-decoration:none;}
 .social li a.yt:hover { background-position:-97px -25px;}
 .social li a.vm:hover { background-position:-129px -25px;}
 
-h1 { font-family:Myriad Pro; color:#4B7589; font-size:55px; border-bottom:1px solid #A7C3CF; font-weight:normal; margin-bottom:40px;}
-#content { overflow:hidden;}
-#content h3 { color:#E92777; font-family:Myriad Pro; font-size:28px;font-weight:normal; margin-bottom:20px;}
-#content p { font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#4B7589;  padding-bottom:25px; line-height:14pt;}
+
+#content { overflow:hidden; padding:0 40px 60px 40px;}
+#content h1 { font-family:Myriad Pro, Arial, Helvetica, sans-serif; color:#4B7589; font-size:55px; border-bottom:1px solid #A7C3CF; font-weight:normal; margin:0px -36px 35px -36px;}
+#content h3 { color:#E92777; font-family:Myriad Pro, Arial, Helvetica, sans-serif; font-size:28px;font-weight:normal;}
+#content p { font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#4B7589;  padding:25px 0px; line-height:14pt;}
+
 #content ul.list1 { font-size:15; font-family:Arial, Helvetica, sans-serif; color:#F2753D; line-height:15pt;}
 #content ul.list1 li { margin-bottom:15px;}
 #content .list1 li.stage1 { background:url(../images/one.gif) no-repeat 0 0; padding-left:20px;}
 #content .list1 li.stage2 { background:url(../images/two.gif) no-repeat 0 0; padding-left:20px;}
 #content .list1 li.stage3 { background:url(../images/three.gif) no-repeat 0 0; padding-left:20px;}
-#content ul.list2 { text-align:center; color:#4B7589; font-family:Arial, Helvetica, sans-serif; font-size:15px;}
-#content .list2 li label{ padding-right:20px;}
-#content ul.list2 li { padding-bottom:10px;}
-#content .ab_y label{ float:left;}
 
-.align { padding-left:37px; padding-right:37px;}
+#content .list2 li { margin-bottom:10px; overflow:hidden;}
+#content .list2 { padding-left:75px;}
+#content .contlabel { width:160px; text-align:right; display:block; float:left; margin-right:20px; font-weight:bold; font-size:15px; font-family:Arial, Helvetica, sans-serif; color:#4B7589; padding-top:11px;}
+#content .error .contlabel { color:#E92777;}
+#content .field { font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#4B7589; background:#E8F0F2; border-top:1px solid #92ACB7;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; padding:10px 15px; width:330px; float:left; margin-right:10px;}
+#content span { padding-top:11px; color:#EB3581; font-size:14px;display:none;  }
+#content .error span { display:block;}
 
-#footer {border-top:1px solid #A7C3CF; margin-top:40px;}
-#footer .menu li a { float:left; overflow:hidden; font-size:11px; font-family:Arial, Helvetica, sans-serif; color:#396375; padding-top:15px;  text-decoration:none; padding-bottom:500px; margin-left:10px; }
+#content .checkbox { padding-left:180px; width:330px;}
+#content .laptop { color:#4B7589; font-size:15px; padding-left:10px; }
+
+#content .numbers .contlabel_1 { width:160px; text-align:right; display:block; float:left; margin-right:20px; font-size:15px; font-family:Arial, Helvetica, sans-serif; color:#4B7589; padding-top:11px;}
+#content .numbers { background:url(../images/pointer.gif) no-repeat 45% 50%;}
+#content .field_1 { font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#4B7589; background:#E8F0F2; border-top:1px solid #92ACB7;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; padding:10px 15px; width:153px; float:right; margin-right:202px; margin-top:5px;}
+
+#content li.send input { border:none; background:url(../images/send.png) no-repeat 50% 50%; padding:10px 50px; color:#FFFFFF; font-size:29px; font-family:Myriad Pro, Arial, Helvetica, sans-serif; margin-left:177px; margin-top:30px;}
+
+
+
+#footer {border-top:1px solid #A7C3CF; padding-bottom:400px;}
+#footer .menu li a { float:left; overflow:hidden; font-size:11px; font-family:Arial, Helvetica, sans-serif; color:#396375; padding-top:15px;  text-decoration:none;  margin-left:10px; }
 #footer .menu li.active1 a { color:#F85B4E;}
 #footer .menu a:hover { color:#F85B4E;}
 #footer .copyright { float:right; padding-top:10px; color:#A7C3CF; font-family:Arial, Helvetica, sans-serif; size:11px;}
